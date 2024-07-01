@@ -1,0 +1,14 @@
+{
+  "name": "kindle_device_manager",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --target=browser --outfile=./dist/index.js"
+  }
+}
